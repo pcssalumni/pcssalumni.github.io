@@ -1,50 +1,19 @@
 {
-  "1930": {
-    "state": "wayback",
-    "url": "https://web.archive.org/web/20220505212957id_/http://pcssalumni.com/PDF/YB-1930.pdf",
-    "note": "Verified Wayback capture"
-  },
-  "1963": {
-    "state": "wayback",
-    "url": "https://web.archive.org/web/20210801134519id_/http://www.pcssalumni.com/PDF/YB-1963.pdf",
-    "note": "Verified Wayback capture"
-  },
-  "1998": {
-    "state": "wayback",
-    "url": "https://web.archive.org/web/20230609073702id_/http://pcssalumni.com/PDF/YB-1998.pdf",
-    "note": "Verified Wayback capture"
-  },
   "2002-junior": {
-    "state": "wayback",
-    "url": "https://web.archive.org/web/20130718022050id_/http://www.pcssalumni.com:80/PDF/YB-2002-J.pdf",
     "originalFilename": "YB-2002-J.pdf",
-    "note": "Verified Wayback capture"
+    "note": "Recovered preservation copy"
   },
   "2002-senior": {
-    "state": "wayback",
-    "url": "https://web.archive.org/web/20130718022113id_/http://www.pcssalumni.com:80/PDF/YB-2002-S.pdf",
     "originalFilename": "YB-2002-S.pdf",
-    "note": "Verified Wayback capture"
-  },
-  "2003": {
-    "state": "wayback",
-    "url": "https://web.archive.org/web/20230608180151id_/http://pcssalumni.com/PDF/YB-2003.pdf",
-    "note": "Verified Wayback capture"
-  },
-  "2012": {
-    "state": "wayback",
-    "url": "https://web.archive.org/web/20201109024943id_/http://pcssalumni.com/PDF/YB-2012.pdf",
-    "note": "Verified Wayback capture"
+    "note": "Recovered preservation copy"
   },
   "2016": {
     "originalFilename": "YB-2016.pdf",
-    "note": "Verified 80-page preservation master recovered locally; public hosting is pending"
+    "note": "Verified 80-page preservation master"
   },
   "2017": {
-    "state": "wayback",
-    "url": "https://web.archive.org/web/20230621015634id_/http://pcssalumni.com/PDF/YB-2017.pdf",
     "originalFilename": "YB-2017.pdf",
-    "note": "Verified 163-page Wayback capture; preservation master is 1.51 GiB"
+    "note": "Verified 163-page preservation master; master file is 1.51 GiB"
   }
 }
 

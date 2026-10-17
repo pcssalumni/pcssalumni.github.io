@@ -4,7 +4,7 @@ description: "Browse the digital Port Credit High School and Port Credit Seconda
 ---
 
 ```{=html}
-<section class="page-hero"><div class="shell"><p class="eyebrow">The annuals · 1930–2017</p><h1>Find your year.</h1><p>The original 67-edition catalogue through 2015, plus recovered 2016 and 2017 yearbooks. The collection includes separate junior and senior books for 2002.</p></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">The annuals · 1930-2017</p><h1>Find your year.</h1><p>The original 67-edition catalogue through 2015, plus recovered 2016 and 2017 yearbooks. The collection includes separate junior and senior books for 2002.</p></div></section>
 
 <section class="section shell archive-browser">
   <div class="notice wide"><strong>The complete collection is now available.</strong> All 69 known editions have been recovered and validated. Select a yearbook below to open its individual preservation copy.</div>
@@ -12,7 +12,7 @@ description: "Browse the digital Port Credit High School and Port Credit Seconda
     <label class="search-box"><span class="sr-only">Search by year or title</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg><input id="yearbook-search" type="search" inputmode="numeric" placeholder="Search a year, e.g. 1984"></label>
     <div id="decade-filters" class="filter-pills" aria-label="Filter by decade"></div>
   </div>
-  <div class="archive-meta"><p id="result-count" aria-live="polite">Loading the catalogue…</p><div class="legend"><span><i class="status-dot local"></i>On this mirror</span><span><i class="status-dot wayback"></i>Wayback copy</span><span><i class="status-dot preserved"></i>Individual Google Drive copy</span></div></div>
+  <div class="archive-meta"><p id="result-count" aria-live="polite">Loading the catalogue…</p><div class="legend"><span><i class="status-dot local"></i>On this mirror</span><span><i class="status-dot preserved"></i>Individual Google Drive copy</span></div></div>
   <div id="yearbook-grid" class="yearbook-grid" aria-live="polite"></div>
   <noscript><p class="notice">JavaScript is needed to filter the yearbook catalogue.</p></noscript>
 </section>

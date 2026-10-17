@@ -13,7 +13,7 @@ The PCSS Alumni Digital Archive is an independent reconstruction of public mater
 
 ## What has been recovered
 
-The original navigation, mission, yearbook catalogue, scholarship recipients and school history have been mapped. All 1,232 URLs in the Wayback inventory and all 195 surviving WordPress media attachments have been recovered locally. A preservation set of 69 valid yearbook editions has also been recovered: 1930, every year from 1951 through 2017, and separate junior and senior books for 2002.
+The original navigation, mission, yearbook catalogue, scholarship recipients and school history have been mapped. Recovered association records, school collections, event pages, course calendars and alumni stories are published directly on this site. A preservation set of 69 valid yearbook editions is available: 1930, every year from 1951 through 2017, and separate junior and senior books for 2002.
 
 ## How files are handled
 

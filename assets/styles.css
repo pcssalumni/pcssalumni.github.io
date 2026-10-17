@@ -135,7 +135,13 @@ h2 { margin: 0 0 1rem; font-size: clamp(2.25rem, 4vw, 4rem); }
 .legend { display: flex; flex-wrap: wrap; gap: 1.2rem; }
 .legend span { display: inline-flex; align-items: center; gap: .5rem; }
 .legend .status-dot { width: 7px; height: 7px; margin: 0; box-shadow: none; }
-.status-dot.local { background: #39885c; }.status-dot.remote { background: #2d6570; }.status-dot.wayback { background: #bf8a22; }.status-dot.preserved { background: #2d6570; }.status-dot.missing { background: #9ea6ad; }
+.status-dot.local { background: #39885c; }.status-dot.remote { background: #2d6570; }.status-dot.preserved { background: #2d6570; }.status-dot.missing { background: #9ea6ad; }
+.recovered-content { max-width: 980px; }
+.recovered-section { padding: 0 0 3.5rem; margin: 0 0 3.5rem; border-bottom: 1px solid var(--line, #d9dce8); }
+.recovered-section:last-child { border-bottom: 0; }
+.recovered-section img { display: inline-block; max-width: min(100%, 780px); height: auto; margin: .75rem .5rem .75rem 0; }
+.recovered-section table { display: block; width: 100%; overflow-x: auto; }
+.recovered-section td, .recovered-section th { vertical-align: top; }
 .yearbook-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.3rem; }
 .yearbook-card { position: relative; min-height: 320px; display: flex; flex-direction: column; padding: 1.5rem; color: var(--white); background: var(--card-color, var(--blue)); border-radius: 2px 8px 8px 2px; box-shadow: 0 12px 24px rgba(12,41,72,.12), inset 7px 0 9px rgba(0,0,0,.12); overflow: hidden; transition: transform .2s, box-shadow .2s; }
 .yearbook-card::before { content: ""; position: absolute; inset: 11px; border: 1px solid rgba(255,255,255,.35); pointer-events: none; }

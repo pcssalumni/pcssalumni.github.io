@@ -75,7 +75,7 @@ async function main() {
     if (driveLinks[book.key]) return { ...book, title: `${book.year} yearbook`, school, state: 'remote', url: driveLinks[book.key], note: 'Public Google Drive preservation copy.' };
     if (source.url) return { ...book, title: `${book.year} yearbook`, school, state: source.state || 'remote', url: source.url, note: source.note || undefined };
     if (preservation.yearbooks?.complete) return { ...book, title: `${book.year} yearbook`, school, state: 'preserved', note: source.note || 'Preservation master verified locally; public hosting is pending.' };
-    return { ...book, title: `${book.year} yearbook`, school, state: 'missing', note: 'The catalogue entry survives, but Wayback did not preserve this PDF.' };
+    return { ...book, title: `${book.year} yearbook`, school, state: 'missing', note: 'The catalogue entry survives, but no public copy is currently linked.' };
   });
 
   const manifest = {

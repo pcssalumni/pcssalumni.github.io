@@ -31,7 +31,7 @@ import { validateBook } from './catalogue-policy.js';
     }
     grid.innerHTML = shown.map((book, index) => {
       const state = book.state || 'missing';
-      const label = state === 'local' ? 'On this mirror' : state === 'remote' ? 'Google Drive copy' : state === 'wayback' ? 'Wayback copy' : state === 'preserved' ? 'Preserved copy' : 'Awaiting file';
+      const label = state === 'local' ? 'On this mirror' : state === 'remote' ? 'Google Drive copy' : state === 'preserved' ? 'Preserved copy' : 'Awaiting file';
       const action = book.url
         ? `<a href="${escapeHtml(book.url)}" ${state !== 'local' ? 'rel="external"' : ''}>Open yearbook <span aria-hidden="true">↗</span></a>`
         : '<button type="button" disabled>Link not available</button>';
