@@ -11,6 +11,7 @@ import os
 import time
 import urllib.request
 from pathlib import Path
+from recovery_http import open_recovery
 
 ORIGIN = "https://www.pcssalumni.com/PDF"
 USER_AGENT = "PCSS-Alumni-Preservation/1.0 (+https://pcssalumni.github.io/)"
@@ -49,7 +50,7 @@ def stream_download(url: str, target: Path, max_bytes: int) -> tuple[int, str]:
             while chunk := saved.read(1024 * 1024):
                 digest.update(chunk)
                 size += len(chunk)
-    with urllib.request.urlopen(request, timeout=300) as response:
+    with open_recovery(request, scope='yearbooks', timeout=300) as response:
         content_type = response.headers.get("Content-Type", "").lower()
         if "text/html" in content_type:
             temporary.unlink(missing_ok=True)

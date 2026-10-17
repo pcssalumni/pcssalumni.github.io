@@ -23,15 +23,16 @@ description: "A community-built digital archive for Port Credit High School and 
 
 <section class="section shell">
   <div class="section-heading split-heading reveal"><div><p class="eyebrow">The collection</p><h2>Open a door to any decade.</h2></div><p>From the 1930 Port Credit High School annual to the final books preserved by the former alumni site, this catalogue is designed to make the collection easy to search, browse and share.</p></div>
-  <div class="decade-grid">
-    <a class="decade-card reveal" href="yearbooks.html?decade=1950"><span class="decade-number">’50s</span><span>Fire, rebuilding &amp; a new name</span><i>9 books</i></a>
-    <a class="decade-card reveal" href="yearbooks.html?decade=1960"><span class="decade-number">’60s</span><span>The move to Mineola Road</span><i>10 books</i></a>
-    <a class="decade-card reveal" href="yearbooks.html?decade=1970"><span class="decade-number">’70s</span><span>New programs, clubs &amp; travel</span><i>10 books</i></a>
-    <a class="decade-card reveal" href="yearbooks.html?decade=1980"><span class="decade-number">’80s</span><span>Re: Port Credit &amp; air guitar</span><i>10 books</i></a>
-    <a class="decade-card reveal" href="yearbooks.html?decade=1990"><span class="decade-number">’90s</span><span>Tradition meets a new century</span><i>10 books</i></a>
-    <a class="decade-card reveal" href="yearbooks.html?decade=2000"><span class="decade-number">’00s</span><span>A new generation of Warriors</span><i>11 books</i></a>
-    <a class="decade-card reveal" href="yearbooks.html?decade=2010"><span class="decade-number">’10s</span><span>The archive continues</span><i>8 books</i></a>
-  </div>
+  <ol class="decade-timeline" aria-label="Yearbooks by decade">
+    <li><a class="decade-stop" href="yearbooks.html?decade=1930"><span class="decade-year">1930s</span><span class="decade-description">The earliest surviving annual</span><span class="decade-count">1 book</span></a></li>
+    <li><a class="decade-stop" href="yearbooks.html?decade=1950"><span class="decade-year">1950s</span><span class="decade-description">Fire, rebuilding &amp; a new name</span><span class="decade-count">9 books</span></a></li>
+    <li><a class="decade-stop" href="yearbooks.html?decade=1960"><span class="decade-year">1960s</span><span class="decade-description">The move to Mineola Road</span><span class="decade-count">10 books</span></a></li>
+    <li><a class="decade-stop" href="yearbooks.html?decade=1970"><span class="decade-year">1970s</span><span class="decade-description">New programs, clubs &amp; travel</span><span class="decade-count">10 books</span></a></li>
+    <li><a class="decade-stop" href="yearbooks.html?decade=1980"><span class="decade-year">1980s</span><span class="decade-description">Re: Port Credit &amp; air guitar</span><span class="decade-count">10 books</span></a></li>
+    <li><a class="decade-stop" href="yearbooks.html?decade=1990"><span class="decade-year">1990s</span><span class="decade-description">Tradition meets a new century</span><span class="decade-count">10 books</span></a></li>
+    <li><a class="decade-stop" href="yearbooks.html?decade=2000"><span class="decade-year">2000s</span><span class="decade-description">A new generation of Warriors</span><span class="decade-count">11 books</span></a></li>
+    <li><a class="decade-stop" href="yearbooks.html?decade=2010"><span class="decade-year">2010s</span><span class="decade-description">The archive continues</span><span class="decade-count">8 books</span></a></li>
+  </ol>
 </section>
 
 <section class="history-band"><div class="shell history-grid"><div class="year-stamp reveal"><span>Since</span><strong>1919</strong><small>Port Credit</small></div><div class="history-copy reveal"><p class="eyebrow">A century in Port Credit</p><h2>From two rooms and 22 students to generations of Warriors.</h2><p>The school began as a continuation school on Forest Avenue, survived the devastating fire of 1956, and moved to Mineola Road in 1963. Its story lives in the records people chose to save.</p><a class="text-link" href="history.html">Read the school timeline <span aria-hidden="true">→</span></a></div></div></section>

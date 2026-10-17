@@ -20,6 +20,7 @@ import urllib.parse
 import urllib.request
 from dataclasses import asdict, dataclass
 from pathlib import Path
+from recovery_http import open_recovery
 
 CDX = "https://web.archive.org/cdx/search/cdx"
 WAYBACK = "https://web.archive.org/web/{timestamp}id_/{original}"
@@ -46,7 +47,7 @@ class Record:
 
 def request(url: str, timeout: int = 90) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=timeout) as response:
+    with open_recovery(req, scope='wayback', timeout=timeout) as response:
         return response.read()
 
 
@@ -58,7 +59,7 @@ def download(url: str, target: Path, timeout: int = 180) -> tuple[int, str]:
     digest = hashlib.sha256()
     size = 0
     try:
-        with urllib.request.urlopen(request_object, timeout=timeout) as response, temporary.open("wb") as handle:
+        with open_recovery(request_object, scope='wayback', timeout=timeout) as response, temporary.open("wb") as handle:
             while chunk := response.read(1024 * 1024):
                 handle.write(chunk)
                 digest.update(chunk)

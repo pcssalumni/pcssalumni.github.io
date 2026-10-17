@@ -26,6 +26,15 @@ jobs:
         with:
           node-version: 22
       - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.10.19'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Security regression checks
+        run: |
+          python -m unittest discover -s scripts -p test_security.py
+          node --test scripts/test-catalogue-security.mjs
       - name: Build site
         run: node scripts/build-site.mjs
       - name: Validate site

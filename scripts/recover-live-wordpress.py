@@ -18,6 +18,7 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from recovery_http import open_recovery
 
 ORIGIN = "https://www.pcssalumni.com"
 API = f"{ORIGIN}/wp-json/wp/v2"
@@ -32,7 +33,7 @@ ALLOWED_EXTENSIONS = {
 
 def open_url(url: str, timeout: int = 180):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    return urllib.request.urlopen(request, timeout=timeout)
+    return open_recovery(request, scope='wordpress', timeout=timeout)
 
 
 def extract_json(payload: bytes):

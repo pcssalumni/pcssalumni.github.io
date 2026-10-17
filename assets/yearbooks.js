@@ -1,3 +1,5 @@
+import { validateBook } from './catalogue-policy.js';
+
 (() => {
   const grid = document.querySelector('#yearbook-grid');
   if (!grid) return;
@@ -54,7 +56,8 @@
       return response.json();
     })
     .then((data) => {
-      books = data.books || [];
+      if (!Array.isArray(data.books)) throw new Error('Invalid catalogue');
+      books = data.books.map(validateBook);
       const requested = new URLSearchParams(location.search).get('decade');
       if (requested && books.some((book) => Math.floor(book.year / 10) * 10 === Number(requested))) activeDecade = requested;
       renderFilters();

@@ -27,6 +27,7 @@ format:
     theme: none
     css: assets/styles.css
     toc: false
+    anchor-sections: false
     title-block-style: none
     include-in-header: includes/head.html
     include-before-body: includes/header.html

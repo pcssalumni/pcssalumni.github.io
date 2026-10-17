@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+IMPROVEMENTS.md
 
 /.quarto/
 **/*.quarto_ipynb

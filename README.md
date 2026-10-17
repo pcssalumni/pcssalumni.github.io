@@ -31,6 +31,11 @@ Edit the matching source file for each public page (`index.qmd`,
 
 Build and validate the same artifact used by GitHub Pages:
 
+Use Node 22, Python 3.13 and Quarto 1.10.19. The protected build applies the
+publication Content Security Policy and rejects injected redirects and unsafe
+active content. See [SECURITY.md](SECURITY.md) for the confirmed legacy-host
+incident, repository protections and outstanding hosting cleanup.
+
 ```powershell
 node scripts/build-site.mjs
 node scripts/validate-site.mjs

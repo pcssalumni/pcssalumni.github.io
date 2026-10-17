@@ -84,17 +84,22 @@ h2 { margin: 0 0 1rem; font-size: clamp(2.25rem, 4vw, 4rem); }
 .section-heading { margin-bottom: 3rem; }
 .split-heading { display: grid; grid-template-columns: 1fr .72fr; align-items: end; gap: 4rem; }
 .split-heading p:last-child { max-width: 520px; margin: 0 0 .4rem; color: var(--muted); font-size: 1.02rem; }
-.decade-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.decade-card { min-height: 245px; display: flex; flex-direction: column; padding: 2rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-decoration: none; background: rgba(255,255,255,.2); transition: background .25s, color .25s, transform .25s; }
-.decade-card:hover { z-index: 1; color: var(--white); background: var(--blue); transform: translateY(-5px); box-shadow: var(--shadow); }
-.decade-number { font-family: var(--serif); font-size: 3.2rem; line-height: 1; }
-.decade-card > span:nth-child(2) { max-width: 220px; margin-top: auto; font-weight: 600; }
-.decade-card i { margin-top: .5rem; color: var(--muted); font-size: .78rem; font-style: normal; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
-.decade-card:hover i { color: var(--gold-light); }
+.decade-timeline { position: relative; display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); margin: 0; padding: 0; list-style: none; }
+.decade-timeline::before { content: ""; position: absolute; top: 62px; left: 12px; right: 12px; height: 2px; background: var(--blue); opacity: .25; }
+.decade-timeline li { position: relative; min-width: 0; }
+.decade-stop { position: relative; display: flex; flex-direction: column; height: 100%; padding: 0 12px 18px; text-decoration: none; border-radius: 3px; }
+.decade-stop::before { content: ""; position: absolute; top: 56px; left: 12px; width: 14px; height: 14px; border: 3px solid var(--blue); border-radius: 50%; background: var(--paper); transition: background .2s, box-shadow .2s; }
+.decade-year { color: var(--blue); font-family: var(--serif); font-size: clamp(1.5rem, 2.5vw, 2.15rem); line-height: 38px; letter-spacing: -.04em; }
+.decade-description { margin-top: 43px; margin-bottom: 16px; font-size: .88rem; font-weight: 600; line-height: 1.55; }
+.decade-count { margin-top: auto; color: var(--muted); font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.decade-stop:hover .decade-year { text-decoration: underline; text-underline-offset: .2em; }
+.decade-stop:hover::before, .decade-stop:focus-visible::before { background: var(--gold); box-shadow: 0 0 0 5px var(--paper), 0 0 0 6px var(--gold); }
+.decade-stop:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; }
+
 
 .history-band { color: var(--white); background: var(--blue); overflow: hidden; }
 .history-grid { min-height: 570px; display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; gap: 7rem; padding-block: 90px; }
-.year-stamp { position: relative; width: 360px; height: 360px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,.3); border-radius: 50%; }
+.year-stamp { position: relative; width: 360px; height: 360px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .75rem; border: 1px solid rgba(255,255,255,.3); border-radius: 50%; }
 .year-stamp::before, .year-stamp::after { content: ""; position: absolute; border-radius: 50%; border: 1px solid rgba(232,170,50,.6); }
 .year-stamp::before { inset: 13px; }.year-stamp::after { inset: -36px; border-style: dashed; }
 .year-stamp span, .year-stamp small { text-transform: uppercase; letter-spacing: .23em; font-size: .7rem; }
@@ -209,7 +214,15 @@ h2 { margin: 0 0 1rem; font-size: clamp(2.25rem, 4vw, 4rem); }
   .site-nav { position: absolute; top: 96px; left: 0; right: 0; display: none; padding: 1.2rem 20px 1.6rem; background: var(--paper); border-bottom: 1px solid var(--line); box-shadow: 0 18px 28px rgba(21,35,95,.12); }
   .site-nav.open { display: grid; }.site-nav a { padding: .65rem 0; }.nav-toggle { display: block; }
   .hero-grid { min-height: auto; grid-template-columns: 1fr; gap: 2rem; padding-top: 80px; }.memory-stack { height: 460px; max-width: 520px; width: 100%; margin: 0 auto; }
-  .split-heading, .history-grid, .mission-grid, .about-layout { grid-template-columns: 1fr; }.split-heading { gap: 1rem; }.decade-grid { grid-template-columns: repeat(2, 1fr); }
+  .split-heading, .history-grid, .mission-grid, .about-layout { grid-template-columns: 1fr; }.split-heading { gap: 1rem; }
+  .decade-timeline { grid-template-columns: 1fr; }
+  .decade-timeline::before { top: 22px; bottom: 35px; left: 8px; right: auto; width: 2px; height: auto; }
+  .decade-stop { display: grid; grid-template-columns: 120px 1fr; column-gap: 20px; padding: 0 0 30px 40px; }
+  .decade-stop::before { top: 14px; left: 2px; }
+  .decade-year { grid-row: 1 / 3; font-size: 2.1rem; }
+  .decade-description { margin: 5px 0 6px; font-size: 1rem; }
+  .decade-count { grid-column: 2; }
+  .decade-timeline li:last-child .decade-stop { padding-bottom: 0; }
   .history-grid { gap: 5rem; }.year-stamp { margin: 0 auto; }.yearbook-grid { grid-template-columns: repeat(3, 1fr); }
   .archive-toolbar { align-items: stretch; flex-direction: column; }.filter-pills { justify-content: flex-start; }.search-box { width: 100%; }
   .archive-section-grid { grid-template-columns: repeat(2, 1fr); }.about-layout { gap: 4rem; }.project-card { position: static; }
@@ -220,7 +233,7 @@ h2 { margin: 0 0 1rem; font-size: clamp(2.25rem, 4vw, 4rem); }
   .shell { width: min(100% - 28px, 1180px); }.header-inner { min-height: 80px; }.site-nav { top: 80px; }.brand-mark { width: 54px; height: 54px; }.brand-copy strong { font-size: 1.02rem; }.brand-copy small { font-size: .62rem; }
   h1 { font-size: clamp(3.2rem, 15vw, 4.6rem); }.hero-grid { padding-block: 62px 95px; }.lede { font-size: 1.02rem; }
   .memory-stack { height: 380px; transform: scale(.82); transform-origin: top center; margin-bottom: -60px; }.book { width: 250px; height: 350px; }.book-back { left: 3%; }.book-front { left: 16%; }
-  .section { padding-block: 72px; }.decade-grid { grid-template-columns: 1fr; }.decade-card { min-height: 190px; }.history-grid { padding-block: 75px; }.year-stamp { width: 275px; height: 275px; }.year-stamp strong { font-size: 4.8rem; }
+  .section { padding-block: 72px; } .decade-stop { grid-template-columns: 94px 1fr; column-gap: 12px; padding-left: 32px; }.decade-year { font-size: 1.8rem; }.history-grid { padding-block: 75px; }.year-stamp { width: 275px; height: 275px; }.year-stamp strong { font-size: 4.8rem; }
   .mission-grid { gap: 3rem; }.quote-card { min-height: 330px; padding: 2rem; box-shadow: 8px 8px 0 var(--paper-deep); }
   .page-hero { padding: 75px 0 65px; }.page-hero h1 { font-size: clamp(3rem, 14vw, 4.5rem); }
   .archive-meta { align-items: flex-start; flex-direction: column; }.legend { gap: .75rem; }.yearbook-grid { grid-template-columns: repeat(2, 1fr); gap: .8rem; }.yearbook-card { min-height: 260px; padding: 1.15rem; }.yearbook-card h2 { font-size: 2.8rem; }

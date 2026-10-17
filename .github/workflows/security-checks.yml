@@ -1,0 +1,26 @@
+name: Validate archive changes
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.10.19'
+      - run: python -m unittest discover -s scripts -p test_security.py
+      - run: node --test scripts/test-catalogue-security.mjs
+      - run: node scripts/build-site.mjs

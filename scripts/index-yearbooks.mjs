@@ -2,6 +2,7 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { validateBook } from '../assets/catalogue-policy.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const yearbookDir = path.join(root, 'yearbooks');
@@ -82,6 +83,7 @@ async function main() {
     description: 'Port Credit High School / Port Credit Secondary School yearbook catalogue recovered from pcssalumni.com.',
     books,
   };
+  books.forEach(validateBook);
   await fs.writeFile(outputPath, `${JSON.stringify(manifest, null, 2)}\n`);
   const localCount = books.filter((book) => book.state === 'local').length;
   const onlineCount = books.filter((book) => book.url).length;
