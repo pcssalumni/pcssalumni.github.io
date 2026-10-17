@@ -19,6 +19,8 @@ project:
     - data/yearbooks.json
     - robots.txt
     - sitemap.xml
+    - "!legacy/**"
+    - "!scripts/**"
 
 website:
   title: "PCSS Alumni Digital Archive"
