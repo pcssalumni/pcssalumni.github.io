@@ -1,0 +1,26 @@
+---
+title: "Join the PCSS Alumni Community"
+description: "Sign up for PCSS alumni news, events, volunteering, mentoring and opportunities to support students."
+---
+
+```{=html}
+<section class="page-hero" data-watermark="JOIN"><div class="shell"><p class="eyebrow">Reconnect and take part</p><h1>Join the PCSS alumni community.</h1><p>Tell us what you are interested in, from Alumni Night and smaller gatherings to mentoring, guest speaking, co-op opportunities and preserving school memories.</p></div></section>
+
+<section class="section shell">
+  <div class="mission-grid">
+    <div class="quote-card">
+      <span class="quote-mark" aria-hidden="true">“</span>
+      <blockquote>Once a Warrior, always connected.</blockquote>
+      <p>Port Credit alumni community</p>
+    </div>
+    <div class="mission-copy">
+      <p class="eyebrow">One simple sign-up</p>
+      <h2>Choose how you would like to be involved.</h2>
+      <p>The form covers event updates, volunteering, mentoring, guest speaking, student opportunities, fundraising and contributions to the archive.</p>
+      <div class="status-line"><span class="status-dot" aria-hidden="true"></span><div><strong>Annual Alumni Night</strong><br>Expected in May 2027, likely at the Port Credit Legion. The final date and venue will be confirmed.</div></div>
+      <a class="button button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeaQ4rv75jUmWQH8Xmxpcpyyi7e6K1_elXwRO4YjX0MxNp7QA/viewform">Open the alumni sign-up form <span aria-hidden="true">→</span></a>
+      <p><small>The form is owned by the PCSS Alumni project and does not require a Google account. Submitted information is used only for alumni community communications and opportunities.</small></p>
+    </div>
+  </div>
+</section>
+```

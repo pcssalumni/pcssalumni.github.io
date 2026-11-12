@@ -1,6 +1,6 @@
 ---
-title: "PCSS Alumni Archive"
-description: "A community-built digital archive for Port Credit High School and Port Credit Secondary School alumni."
+title: "PCSS Alumni Community"
+description: "Reconnect with Port Credit High School and Port Credit Secondary School alumni, attend events, support students and explore our shared history."
 ---
 
 ```{=html}
@@ -8,9 +8,9 @@ description: "A community-built digital archive for Port Credit High School and 
   <div class="shell hero-grid">
     <div class="hero-copy reveal">
       <p class="eyebrow">Port Credit, Ontario · Est. 1919</p>
-      <h1>Our school story,<br><em>kept in reach.</em></h1>
-      <p class="lede">A new home for the photographs, yearbooks and memories once collected at pcssalumni.com, preserved by alumni, for alumni.</p>
-      <div class="hero-actions"><a class="button button-primary" href="yearbooks.html">Browse the yearbooks <span aria-hidden="true">→</span></a><a class="button button-quiet" href="history.html">Explore our history</a></div>
+      <h1>Once a Warrior,<br><em>always connected.</em></h1>
+      <p class="lede">Reconnect with classmates, join alumni events, share your experience and help create opportunities for today’s PCSS students.</p>
+      <div class="hero-actions"><a class="button button-primary" href="join.html">Join the community <span aria-hidden="true">→</span></a><a class="button button-quiet" href="yearbooks.html">Explore memories</a></div>
     </div>
     <div class="memory-stack reveal" aria-label="A stack of stylized Port Credit yearbooks">
       <div class="book book-back"><span>Port Credit</span><strong>1963</strong><small>A new school on Mineola</small></div>
@@ -19,6 +19,17 @@ description: "A community-built digital archive for Port Credit High School and 
     </div>
   </div>
   <div class="ticker" aria-hidden="true"><span>1919 · Forest Avenue · PCHS · The 1956 Fire · Mineola Road · PCSS · Warriors · Lux Nunquam Desit · 1919 · Forest Avenue · PCHS · The 1956 Fire · Mineola Road · PCSS · Warriors · Lux Nunquam Desit · </span></div>
+</section>
+
+<section class="community-callout">
+  <div class="shell community-callout-grid">
+    <div>
+      <p class="eyebrow">Annual Alumni Night</p>
+      <h2>Coming together in May 2027.</h2>
+      <p>The next Alumni Night is being planned for May, likely at the Port Credit Legion. Join the list to hear the confirmed date and venue first.</p>
+    </div>
+    <div class="hero-actions"><a class="button button-primary" href="join.html">Get event updates</a><a class="button button-quiet" href="events.html">See past gatherings</a></div>
+  </div>
 </section>
 
 <section class="section shell">
