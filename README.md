@@ -3,6 +3,9 @@
 A Quarto-powered, static and portable mirror for public material formerly hosted at
 `pcssalumni.com`, published at `https://pcssalumni.github.io/`.
 
+See [PCSS Alumni Website Vision](VISION.md) for the community-focused direction,
+proposed visitor experience and phased roadmap for the site.
+
 The first restoration pass includes:
 
 - a responsive archive home page;
