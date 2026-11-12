@@ -3,6 +3,7 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - join.qmd
     - yearbooks.qmd
     - scholarships.qmd
     - history.qmd
