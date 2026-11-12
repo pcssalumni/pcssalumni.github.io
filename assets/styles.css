@@ -76,10 +76,6 @@ h2 { margin: 0 0 1rem; font-size: clamp(2.25rem, 4vw, 4rem); }
 .book-back { top: 10px; left: 12%; background: #4457a6; transform: rotate(-12deg); }
 .book-middle { top: 36px; right: 1%; background: var(--gold); color: var(--blue-deep); transform: rotate(9deg); }
 .book-front { top: 75px; left: 21%; z-index: 3; background: var(--blue); transform: rotate(-2deg); }
-.book-front i { position: absolute; top: 125px; width: 74px; height: 74px; border: 2px solid var(--gold-light); border-radius: 50%; }
-.book-front i::before, .book-front i::after { content: ""; position: absolute; background: var(--gold-light); }
-.book-front i::before { width: 42px; height: 2px; left: 14px; top: 35px; transform: rotate(-25deg); }
-.book-front i::after { width: 2px; height: 42px; left: 35px; top: 14px; transform: rotate(-25deg); }
 .ticker { position: absolute; bottom: 0; width: 100%; overflow: hidden; background: var(--gold); color: var(--blue-deep); padding: .75rem 0; font-size: .73rem; font-weight: 700; letter-spacing: .16em; white-space: nowrap; text-transform: uppercase; }
 .ticker span { display: inline-block; min-width: 200%; animation: ticker 38s linear infinite; }
 @keyframes ticker { to { transform: translateX(-50%); } }
