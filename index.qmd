@@ -7,7 +7,7 @@ description: "Reconnect with Port Credit High School and Port Credit Secondary S
 <section class="hero">
   <div class="shell hero-grid">
     <div class="hero-copy reveal">
-      <p class="eyebrow">PCHS and PCSS Alumni Association</p>
+      <p class="eyebrow">PCSS Alumni Association</p>
       <h1>Reconnect with<br><em>Port Credit.</em></h1>
       <p class="lede">Join alumni events, reconnect with classmates and help support opportunities for current PCSS students.</p>
       <div class="hero-actions"><a class="button button-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeaQ4rv75jUmWQH8Xmxpcpyyi7e6K1_elXwRO4YjX0MxNp7QA/viewform">Fill out the alumni form <span aria-hidden="true">→</span></a><a class="button button-quiet" href="yearbooks.html">Browse yearbooks</a></div>
@@ -15,7 +15,7 @@ description: "Reconnect with Port Credit High School and Port Credit Secondary S
     <div class="memory-stack reveal" aria-label="A stack of stylized Port Credit yearbooks">
       <div class="book book-back"><span>Port Credit</span><strong>1963</strong><small>A new school on Mineola</small></div>
       <div class="book book-middle"><span>P.C.S.S.</span><strong>1984</strong><small>The Warrior</small></div>
-      <div class="book book-front"><span>Port Credit</span><strong>1957</strong><small>Lux Nunquam Desit</small><i aria-hidden="true"></i></div>
+      <div class="book book-front"><span>Port Credit</span><strong>1957</strong><small>Lux Nunquam Desit</small></div>
     </div>
   </div>
 </section>
