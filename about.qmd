@@ -1,34 +1,36 @@
 ---
-title: "About · PCSS Alumni Archive"
-description: "About the independent PCSS Alumni digital preservation project."
+title: "About · PCSS Alumni Association"
+description: "About the PCSS Alumni Association and its work for alumni and students."
 ---
 
-<section class="page-hero"><div class="shell"><p class="eyebrow">About the project</p><h1>A mirror with<br>a memory.</h1><p>This site exists because a web address is temporary, but a community archive should be durable.</p></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">About the Association</p><h1>Alumni supporting<br>alumni and students.</h1><p>The PCSS Alumni Association helps former students reconnect and supports opportunities for the next generation.</p></div></section>
 
 ::: {.section .shell .about-layout}
 ::: {.prose}
-## What this is
+## Our purpose
 
-The PCSS Alumni Digital Archive is an independent reconstruction of public material once hosted at pcssalumni.com. Its maintainable pages are written in Quarto Markdown (`.qmd`) and rendered to static HTML.
+The Association connects Port Credit High School and Port Credit Secondary School alumni with one another, with the school’s history and with opportunities to support current students.
 
-## What has been recovered
+## What we do
 
-The original navigation, mission, yearbook catalogue, scholarship recipients and school history have been mapped. Recovered association records, school collections, event pages, course calendars and alumni stories are published directly on this site. A preservation set of 69 valid yearbook editions is available: 1930, every year from 1951 through 2017, and separate junior and senior books for 2002.
+- organize Alumni Night and other community gatherings;
+- share alumni news and memories;
+- recognize students through alumni-supported scholarships;
+- connect alumni with mentoring, speaking and volunteer opportunities;
+- maintain yearbooks, photographs and school history for the community.
 
-## How files are handled
+## Join the community
 
-Large yearbooks and raw preservation captures stay outside Git history. The recovered yearbook masters total more than 4 GB, so the published catalogue can point to durable external files while the maintainable site remains small enough for GitHub Pages.
+The alumni form is the easiest way to receive updates and tell us how you would like to participate.
 
-## Accuracy, safety and privacy
+[Fill out the alumni form](https://docs.google.com/forms/d/e/1FAIpQLSeaQ4rv75jUmWQH8Xmxpcpyyi7e6K1_elXwRO4YjX0MxNp7QA/viewform){.button .button-primary}
 
-Historical pages are identified as restored or summarized. Advertising code, trackers, obsolete forms, stale contact details and unverified private information are not republished.
+## Independent alumni organization
 
-## Relationship to the school
-
-This project is not an official website of Port Credit Secondary School or the Peel District School Board.
+The PCSS Alumni Association is alumni-led and is not affiliated with Port Credit Secondary School or the Peel District School Board.
 :::
 
-<aside class="project-card"><p class="eyebrow">Archive principles</p><ol><li><span>01</span><div><strong>Preserve first</strong><p>Keep original files and provenance.</p></div></li><li><span>02</span><div><strong>Label clearly</strong><p>Separate restored history from current information.</p></div></li><li><span>03</span><div><strong>Stay portable</strong><p>Use static files with no database dependency.</p></div></li><li><span>04</span><div><strong>Respect people</strong><p>Do not revive stale personal data or forms.</p></div></li></ol></aside>
+<aside class="project-card"><p class="eyebrow">Get involved</p><h2>There is a place for every alumnus.</h2><p>Attend an event, mentor a student, share a memory, volunteer your time or help support a school initiative.</p><a class="button button-outline full" href="https://docs.google.com/forms/d/e/1FAIpQLSeaQ4rv75jUmWQH8Xmxpcpyyi7e6K1_elXwRO4YjX0MxNp7QA/viewform">Join the alumni list</a></aside>
 :::
 
 

@@ -1,14 +1,14 @@
 ---
-title: "Page not found · PCSS Alumni Archive"
-description: "The requested archive page could not be found."
+title: "Page not found · PCSS Alumni Association"
+description: "The requested page could not be found."
 ---
 
 ::: {.section .shell .prose}
 # Page not found
 
-That archive page is not available yet. It may still be awaiting recovery.
+That page is not available.
 
-[Return to the archive](archive.html){.button .button-primary}
+[Return home](index.html){.button .button-primary}
 :::
 
 

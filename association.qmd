@@ -1,10 +1,10 @@
 ---
-title: "Alumni Association · PCSS Alumni Archive"
-description: "Recovered mission, committee history, constitution and bylaws of the PCSS Alumni Association."
+title: "Alumni Association · PCSS Alumni Association"
+description: "Mission, committee history, constitution and bylaws of the PCSS Alumni Association."
 ---
 
 ```{=html}
-<section class="page-hero"><div class="shell"><p class="eyebrow">Recovered association records</p><h1>The Alumni Association.</h1><p>Mission, committee history, constitution and bylaws preserved from the former alumni website.</p></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">Our organization</p><h1>The Alumni Association.</h1><p>Mission, committee history, constitution and bylaws.</p></div></section>
 
 <div class="section shell prose recovered-content">
 <section id="mission" class="recovered-section"><h2>Mission and mandate</h2><p>The mission of the Alumni Association is to communicate with the Alumni Body, link Alumni friends and their high school memories, support actively and financially the current school student scholarship programme and selected school capital projects. The Association would be connected to the school through the Alumni Association Committee, [AAC] who in turn would maintain the present Principal and Vice Principal as primary contacts to further the causes of the Association.</p>

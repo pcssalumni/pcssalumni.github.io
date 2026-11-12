@@ -1,10 +1,10 @@
 ---
-title: "School Life · PCSS Alumni Archive"
-description: "Recovered PCSS newspapers, school plays and athletics records."
+title: "School Life · PCSS Alumni Association"
+description: "PCSS newspapers, school plays and athletics records."
 ---
 
 ```{=html}
-<section class="page-hero"><div class="shell"><p class="eyebrow">Recovered school collections</p><h1>School life.</h1><p>Newspapers, productions and athletics material preserved from the former alumni website.</p></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">Across the decades</p><h1>School life.</h1><p>Newspapers, productions, athletics and student memories.</p></div></section>
 
 <div class="section shell prose recovered-content">
 <section id="newspapers" class="recovered-section"><h2>School newspapers</h2><div><div><div><div> <div><h4>Re:Port Credit</h4>

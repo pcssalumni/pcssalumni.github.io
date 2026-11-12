@@ -1,10 +1,10 @@
 ---
-title: "Alumni Events · PCSS Alumni Archive"
-description: "Recovered PCSS Alumni Nights, commencements and photographs."
+title: "Alumni Events · PCSS Alumni Association"
+description: "PCSS Alumni Nights, commencements and photographs."
 ---
 
 ```{=html}
-<section class="page-hero"><div class="shell"><p class="eyebrow">Recovered event collections</p><h1>Alumni events.</h1><p>Alumni Nights, commencements and photographs preserved from the former alumni website.</p></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">Connect in person</p><h1>Alumni events.</h1><p>Annual Alumni Night, past gatherings and photographs.</p></div></section>
 
 <div class="section shell prose recovered-content">
 <section id="alumni-nights" class="recovered-section"><h2>Alumni Nights</h2><h3><span>PC Alumni Night, 06_05_16, The organizing committee</span></h3>

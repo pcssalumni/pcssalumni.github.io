@@ -1,10 +1,10 @@
 ---
-title: "Course Calendars · PCSS Alumni Archive"
-description: "Recovered Port Credit Secondary School course calendars."
+title: "Course Calendars · PCSS Alumni Association"
+description: "Historic Port Credit Secondary School course calendars."
 ---
 
 ```{=html}
-<section class="page-hero"><div class="shell"><p class="eyebrow">Recovered school documents</p><h1>Course calendars.</h1><p>Course calendar material preserved from the former alumni website.</p></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">School documents</p><h1>Course calendars.</h1><p>Course calendars from the late 1970s and early 1980s.</p></div></section>
 
 <div class="section shell prose recovered-content">
 <section id="course-calendars" class="recovered-section"><h2>Course calendars</h2><p> <img loading="lazy" src="assets/recovered/course-calendars/7879CourseCal-67a99dd36b.jpg"/> <strong>1978-79 Course Calendar</strong></p>
