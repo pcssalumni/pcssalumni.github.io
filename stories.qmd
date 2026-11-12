@@ -1,10 +1,10 @@
 ---
-title: "Alumni Stories · PCSS Alumni Archive"
-description: "First-person stories and memories recovered from the former PCSS Alumni website."
+title: "Alumni Stories · PCSS Alumni Association"
+description: "First-person stories and memories from PCSS alumni."
 ---
 
 ```{=html}
-<section class="page-hero"><div class="shell"><p class="eyebrow">Recovered first-person accounts</p><h1>Alumni stories.</h1><p>Memories and feature articles preserved from the former alumni website.</p></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">In their own words</p><h1>Alumni stories.</h1><p>Memories and feature articles shared by former students.</p></div></section>
 
 <div class="section shell prose recovered-content">
 <section id="aboutfootball" class="recovered-section story"><h2>About Football</h2><table>

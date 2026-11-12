@@ -24,7 +24,7 @@ project:
     - "!scripts/**"
 
 website:
-  title: "PCSS Alumni Digital Archive"
+  title: "PCSS Alumni Association"
   site-url: "https://pcssalumni.github.io/"
   navbar: false
   sidebar: false

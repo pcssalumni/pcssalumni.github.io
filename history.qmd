@@ -1,17 +1,15 @@
 ---
-title: "School History · PCSS Alumni Archive"
+title: "School History · PCSS Alumni Association"
 description: "A restored history of Port Credit High School and Port Credit Secondary School."
 ---
 
 ```{=html}
-<section class="page-hero history-hero"><div class="shell"><p class="eyebrow">A century of Port Credit</p><h1>Built, rebuilt<br>and remembered.</h1><p>A concise restoration of the school history published on the former alumni website.</p></div></section>
+<section class="page-hero history-hero"><div class="shell"><p class="eyebrow">A century of Port Credit</p><h1>Built, rebuilt<br>and remembered.</h1><p>Milestones from the school’s history in Port Credit.</p></div></section>
 
 <div class="section shell history-layout">
 <aside class="timeline-nav" aria-label="History sections"><p>Jump to</p><a href="#beginnings">1919</a><a href="#new-school">1929</a><a href="#thirties">1930s</a><a href="#forties">1940s</a><a href="#fifties">1950s</a><a href="#fire">The fire</a><a href="#mineola">1963</a><a href="#seventies">1970s</a><a href="#eighties">1980s</a><a href="#nineties">1990s</a></aside>
 
 <article class="history-article">
-<div class="provenance-note"><strong>Restored record</strong><p>This timeline is summarized from archived versions of pcssalumni.com. Dates and names remain subject to checking against the recovered source material.</p></div>
-
 <section id="beginnings" class="history-entry"><div class="history-year">1919</div><div><p class="eyebrow">The beginning</p><h2>A two-room continuation school</h2><p>Before Port Credit had a secondary school, local students travelled to Parkdale Collegiate in Toronto after Grade 8. Port Credit ratepayers responded by establishing a continuation school on Forest Avenue. Its first secondary classes occupied two rooms, with two teachers and 22 tuition-paying students.</p><p>The school grew quickly. A six-room addition arrived in 1926, and by 1928 enrolment had reached 217 students with a staff of six.</p></div></section>
 
 <section id="new-school" class="history-entry"><div class="history-year">1929</div><div><p class="eyebrow">Room to grow</p><h2>A new Port Credit High School</h2><p>Construction began on a purpose-built high school with ten classrooms, science laboratories, a library, a 500-seat auditorium, a gym, a circular track, a cafeteria and student lockers. It opened as the community entered the Great Depression.</p></div></section>

@@ -1,16 +1,16 @@
 ---
-title: "Site Archive · PCSS Alumni Archive"
-description: "Recovery index for the former pcssalumni.com website."
+title: "Memories and Archives · PCSS Alumni Association"
+description: "Explore PCSS yearbooks, school life, alumni events and stories."
 ---
 
-<section class="page-hero"><div class="shell"><p class="eyebrow">Digital collections</p><h1>Explore the archive.</h1><p>Recovered pages and files from the former alumni website, presented here without advertising, tracking or obsolete forms.</p></div></section>
+<section class="page-hero"><div class="shell"><p class="eyebrow">Memories and history</p><h1>Explore Port Credit.</h1><p>Yearbooks, school life, alumni events and stories from across the decades.</p></div></section>
 
 ::: {.section .shell}
 <div class="archive-section-grid">
   <article class="archive-section"><span class="archive-index">01</span><h2>Association</h2><p>Mission, committee history, constitution and bylaws.</p><div class="archive-links"><a href="association.html#mission">Mission &amp; mandate</a><a href="association.html#committee">Committee</a><a href="association.html#constitution">Constitution</a></div></article>
   <article class="archive-section"><span class="archive-index">02</span><h2>School life</h2><p>Newspapers, plays and athletics.</p><div class="archive-links"><a href="school-life.html#newspapers">School newspapers</a><a href="school-life.html#plays">School plays</a><a href="school-life.html#athletics">Athletics</a></div></article>
   <article class="archive-section"><span class="archive-index">03</span><h2>Events</h2><p>Alumni Nights, graduation photographs and commencements.</p><div class="archive-links"><a href="events.html#alumni-nights">Alumni Nights</a><a href="events.html#commencements">Commencements</a><a href="events.html#photographs">Photo gallery</a></div></article>
-  <article class="archive-section"><span class="archive-index">04</span><h2>Scholarships</h2><p>Programme history, award information and recipient profiles.</p><div class="archive-links"><a href="scholarships.html#alumni-association-recipients">Recovered recipients</a><a href="scholarships.html">Programme summary</a><a href="scholarships.html#terry-garbutt-memorial-scholarship">Terry Garbutt award</a></div></article>
+  <article class="archive-section"><span class="archive-index">04</span><h2>Scholarships</h2><p>Programme history, award information and recipient profiles.</p><div class="archive-links"><a href="scholarships.html#alumni-association-recipients">Scholarship recipients</a><a href="scholarships.html">Programme summary</a><a href="scholarships.html#terry-garbutt-memorial-scholarship">Terry Garbutt award</a></div></article>
   <article class="archive-section"><span class="archive-index">05</span><h2>Digital archives</h2><p>Yearbooks, course calendars, the 1956 fire and historic documents.</p><div class="archive-links"><a href="yearbooks.html">Yearbook catalogue</a><a href="course-calendars.html#course-calendars">Course calendars</a><a href="history.html#fire">The 1956 fire</a></div></article>
   <article class="archive-section"><span class="archive-index">06</span><h2>Alumni stories</h2><p>First-person memories and feature articles from former students.</p><div class="archive-links"><a href="stories.html">Stories index</a><a href="stories.html#arn">Has Anyone Seen Arn?</a><a href="stories.html#click">Click!</a></div></article>
 </div>
